@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Haritz Medina",
+      "authorEmail": "haritzmedina@gmail.com",
+      "authorUrl": "https://haritzmedina.com"
+    }
+  }
+}
