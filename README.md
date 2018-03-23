@@ -10,9 +10,13 @@ $ npm install --save hypothesis-api-client
 ## Usage
 
 ```js
-const hypothesisApiClient = require('hypothesis-api-client');
+const HypothesisClient = require('hypothesis-api-client');
 
-hypothesisApiClient('Rainbow');
+let hypothesisClient = new HypothesisClient(TOKEN);
+
+hypothesisClient.searchAnnotations({url: 'https://hypothes.is'}, (err, annotations) => {
+  console.log(annotations)
+})
 ```
 ## License
 
