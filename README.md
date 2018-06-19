@@ -21,17 +21,25 @@ hypothesisClient.searchAnnotations({url: 'https://hypothes.is'}, (err, annotatio
 
 ## Methods
 
-The client currently supports the following methods:
+The client currently supports the following methods.
+
+### Annotations
 * [createNewAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/createAnnotation)(annotation, callback)
 * createNewAnnotations(annotationsArray, callback)
-* [getUserProfile](http://h.readthedocs.io/en/latest/api-reference/#section/Hypothesis-API-Reference)(callback)
 * [fetchAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/fetchAnnotation)(id, callback)
 * [updateAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/updateAnnotation)(id, annotation, callback)
 * [deleteAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/deleteAnnotation)(id, callback)
 * [searchAnnotations](http://h.readthedocs.io/en/latest/api-reference/#operation/search)(data, callback)
 * searchBunchAnnotations(data, offset, callback)
-* [createHypothesisGroup](https://hypothes.is/groups/new)(groupName, callback)
+
+### Groups
+* [getListOfGroups](https://h.readthedocs.io/en/latest/api-reference/#operation/listGroups)(data, callback)
 * [removeAMemberFromAGroup](http://h.readthedocs.io/en/latest/api-reference/#operation/deleteGroupMember)(groupId, user, callback)
+* [createHypothesisGroup](https://hypothes.is/groups/new)(groupName, callback)
+
+### Users
+* [getUserProfile](http://h.readthedocs.io/en/latest/api-reference/#section/Hypothesis-API-Reference)(callback)
+
 
 ## License
 
