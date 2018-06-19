@@ -43,7 +43,7 @@ The client currently supports the following methods.
 
 ## License
 
-GPL-3.0 © [Haritz Medina](https://haritzmedina.com)
+MIT © [Haritz Medina](https://haritzmedina.com)
 
 
 [npm-image]: https://badge.fury.io/js/hypothesis-api-client.svg
