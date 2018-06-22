@@ -35,7 +35,7 @@ The client currently supports the following methods.
 ### Groups
 * [getListOfGroups](https://h.readthedocs.io/en/latest/api-reference/#operation/listGroups)(data, callback)
 * [removeAMemberFromAGroup](http://h.readthedocs.io/en/latest/api-reference/#operation/deleteGroupMember)(groupId, user, callback)
-* [createHypothesisGroup](https://hypothes.is/groups/new)(groupName, callback)
+* [createHypothesisGroup](https://h.readthedocs.io/en/latest/api-reference/#operation/createGroup)(data, callback)
 
 ### Users
 * [getUserProfile](http://h.readthedocs.io/en/latest/api-reference/#section/Hypothesis-API-Reference)(callback)
