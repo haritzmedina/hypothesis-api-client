@@ -1,4 +1,4 @@
-# hypothesis-api-client [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# hypothesis-api-client [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Try hypothesis-api-client on RunKit][runkit-image]]([runkit-url]) [![Coverage percentage][coveralls-image]][coveralls-url] 
 > A Hypothes.is API client for browser and server-side
 
 ## Installation
@@ -54,3 +54,5 @@ MIT © [Haritz Medina](https://haritzmedina.com)
 [daviddm-url]: https://david-dm.org/haritzmedina/hypothesis-api-client
 [coveralls-image]: https://coveralls.io/repos/haritzmedina/hypothesis-api-client/badge.svg
 [coveralls-url]: https://coveralls.io/r/haritzmedina/hypothesis-api-client
+[runkit-image]:https://badge.runkitcdn.com/hypothesis-api-client.svg
+[runkit-url]: https://npm.runkit.com/hypothesis-api-client

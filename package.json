@@ -43,6 +43,7 @@
     "prettier": "^1.14.3",
     "puppeteer": "^1.8.0"
   },
+  "runkitExampleFilename": "runkitExample.js",
   "scripts": {
     "prepublishOnly": "nsp check",
     "pretest": "eslint .",
