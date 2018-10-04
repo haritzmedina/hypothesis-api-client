@@ -1,4 +1,5 @@
-# hypothesis-api-client [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Try hypothesis-api-client on RunKit][runkit-image]]([runkit-url]) [![Coverage percentage][coveralls-image]][coveralls-url] 
+# hypothesis-api-client
+[![NPM version][npm-image]][npm-url][![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Try hypothesis-api-client on RunKit][runkit-image]][runkit-url] [![Coverage percentage][coveralls-image]][coveralls-url] 
 > A Hypothes.is API client for browser and server-side
 
 ## Installation
