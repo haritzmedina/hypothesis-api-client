@@ -48,7 +48,7 @@
     "prepublishOnly": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "lint-staged": {
     "*.js": [
