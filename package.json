@@ -1,6 +1,6 @@
 {
   "name": "hypothesis-api-client",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Hypothes.is API client for browser and server-side",
   "homepage": "https://github.com/haritzmedina/hypothesis-api-client",
   "author": {
@@ -39,12 +39,14 @@
     "hoek": "^5.0.4",
     "husky": "^1.2.1",
     "jest": "^23.6.0",
+    "jsdoc": "^3.5.5",
     "lint-staged": "^7.3.0",
     "prettier": "^1.15.3",
     "puppeteer": "^1.11.0"
   },
   "runkitExampleFilename": "runkitExample.js",
   "scripts": {
+    "jsdoc": "jsdoc ./lib/index.js -d ./docs",
     "prepublishOnly": "npm audit",
     "pretest": "eslint .",
     "precommit": "lint-staged",
