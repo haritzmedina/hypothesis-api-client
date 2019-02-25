@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "docma": "^3.2.2",
     "dotenv": "^6.2.0",
     "eslint": "^5.11.0",
     "eslint-config-prettier": "^4.0.0",
