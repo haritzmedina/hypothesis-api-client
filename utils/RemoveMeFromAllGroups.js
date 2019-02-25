@@ -1,6 +1,6 @@
-const HypothesisClient = require('../lib/index')
+require('dotenv').config({ path: './utils/.env' })
 
-require('dotenv').config()
+const HypothesisClient = require('../lib/index')
 
 const TOKEN = process.env.HYPOTHESIS_TOKEN
 
@@ -8,7 +8,7 @@ let hypothesisClient = new HypothesisClient(TOKEN)
 
 hypothesisClient.getListOfGroups({}, (err, groups) => {
   if (err) {
-    console.err(err)
+    console.error(err)
   } else {
     console.log(groups)
     for (let i = 0; i < groups.length; i++) {
