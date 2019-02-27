@@ -22,7 +22,7 @@ hypothesisClient.searchAnnotations({url: 'https://hypothes.is'}, (err, annotatio
 
 ## Methods
 
-The client currently supports the following methods.
+The client currently supports the following methods. JSDoc can be found [here](https://haritzmedina.github.io/hypothesis-api-client).
 
 ### Annotations
 * [createNewAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/createAnnotation)(annotation, callback)
