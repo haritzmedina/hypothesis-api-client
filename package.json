@@ -45,7 +45,7 @@
   },
   "runkitExampleFilename": "runkitExample.js",
   "scripts": {
-    "jsdoc": "jsdoc ./lib/index.js -d ./docs",
+    "jsdoc": "documentation build lib/*.js -f html -o ./docs",
     "prepublishOnly": "npm audit",
     "pretest": "eslint .",
     "precommit": "lint-staged",
