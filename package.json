@@ -21,23 +21,23 @@
     "api"
   ],
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "dotenv": "^6.2.0",
+    "dotenv": "^8.0.0",
     "eslint": "^5.11.0",
     "eslint-config-prettier": "^4.0.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-config-xo": "^0.26.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "hoek": "^6.1.2",
-    "husky": "^1.2.1",
+    "husky": "^2.3.0",
     "jest": "^24.8.0",
     "lint-staged": "^8.1.4",
     "prettier": "^1.15.3",
