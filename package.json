@@ -22,26 +22,25 @@
   ],
   "dependencies": {
     "axios": "^0.19.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.14"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
+    "coveralls": "^3.0.4",
     "dotenv": "^8.0.0",
-    "eslint": "^5.11.0",
-    "eslint-config-prettier": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-config-xo": "^0.26.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "hoek": "^6.1.2",
-    "husky": "^2.3.0",
+    "husky": "^2.7.0",
     "jest": "^24.8.0",
-    "lint-staged": "^8.1.4",
-    "prettier": "^1.15.3",
-    "puppeteer": "^1.17.0"
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.18.1"
   },
   "runkitExampleFilename": "runkitExample.js",
   "scripts": {
