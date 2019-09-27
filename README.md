@@ -30,7 +30,7 @@ The client currently supports the following methods. JSDoc can be found [here](h
 * [fetchAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/fetchAnnotation)(id, callback)
 * [updateAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/updateAnnotation)(id, annotation, callback)
 * [deleteAnnotation](http://h.readthedocs.io/en/latest/api-reference/#operation/deleteAnnotation)(id, callback)
-* [deleteAnnotations](annotationsArray, callback)
+* deleteAnnotations(annotationsArray, callback)
 * [searchAnnotations](http://h.readthedocs.io/en/latest/api-reference/#operation/search)(data, callback): Search up to 10K bulk annotations in parallel (faster). Maybe it will be deprecated. 
 * searchBunchAnnotations(data, offset, callback): Search a bunch (up to 200) of annotations giving an offset (up to 9.8K)
 * [searchAnnotationsSequential](https://web.hypothes.is/blog/new-search-api-parameter-search_after/): Search over 10K bulk annotations sequentially (slower).

@@ -1,6 +1,6 @@
 const HypothesisApiClient = require('hypothesis-api-client')
 
-let hypothesisApiClient = new HypothesisApiClient()
+const hypothesisApiClient = new HypothesisApiClient()
 
 hypothesisApiClient.searchAnnotations({ url: 'https://web.hypothes.is' }, (err, annotations) => {
   if (err) {

@@ -22,27 +22,27 @@
   ],
   "dependencies": {
     "axios": "^0.19.0",
-    "lodash": "^4.17.14"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "coveralls": "^3.0.4",
-    "dotenv": "^8.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-config-xo": "^0.26.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "coveralls": "^3.0.6",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-xo": "^0.27.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "husky": "^2.7.0",
-    "jest": "^24.8.0",
-    "lint-staged": "^8.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.0",
     "prettier": "^1.18.2",
-    "puppeteer": "^1.18.1"
+    "puppeteer": "^1.20.0"
   },
-  "runkitExampleFilename": "runkitExample.js",
+  "runkitExampleFilename": "./runkitExample.js",
   "scripts": {
     "jsdoc": "documentation build lib/*.js -f html -o ./docs",
     "prepublishOnly": "npm audit",
