@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-  - v12
-  - v10
+  - v16
 after_script: cat ./coverage/lcov.info | coveralls
 cache:
   directories:
