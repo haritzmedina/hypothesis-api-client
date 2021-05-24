@@ -22,6 +22,9 @@ coverage
 .idea/**/gradle.xml
 .idea/**/libraries
 
+# Sonarlint:
+.idea/sonarlint
+
 # CMake
 cmake-build-debug/
 cmake-build-release/
