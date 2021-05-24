@@ -50,7 +50,7 @@ MIT © [Haritz Medina](https://haritzmedina.com)
 
 [npm-image]: https://badge.fury.io/js/hypothesis-api-client.svg
 [npm-url]: https://npmjs.org/package/hypothesis-api-client
-[travis-image]: https://travis-ci.org/haritzmedina/hypothesis-api-client.svg?branch=master
+[travis-image]: https://travis-ci.com/haritzmedina/hypothesis-api-client.svg?branch=master
 [travis-url]: https://travis-ci.org/haritzmedina/hypothesis-api-client
 [daviddm-image]: https://david-dm.org/haritzmedina/hypothesis-api-client.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/haritzmedina/hypothesis-api-client
