@@ -1,4 +1,4 @@
-name: Node.js CI
+name: build-test
 
 on:
   push:
@@ -25,3 +25,5 @@ jobs:
       - run: npm test
         env:
           HYPOTHESIS_TOKEN: ${{ secrets.HYPOTHESIS_TOKEN }}
+          HYPOTHESIS_TEST_GROUP_ID: ${{ secrets.HYPOTHESIS_TEST_GROUP_ID }}
+          HYPOTHESIS_TEST_ONLY_READ_GROUP: ${{ secrets.HYPOTHESIS_TEST_ONLY_READ_GROUP }}
