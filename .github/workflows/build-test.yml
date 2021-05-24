@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 16.x]
+        node-version: [16.x]  # Disabled multiple executions of different node versions as github actions are executed concurrently
 
     steps:
       - uses: actions/checkout@v2
