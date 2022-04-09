@@ -4,7 +4,7 @@ const HypothesisClient = require('../lib/index')
 
 const TOKEN = process.env.HYPOTHESIS_TOKEN
 
-const hypothesisClient = new HypothesisClient(TOKEN)
+const hypothesisClient = new HypothesisClient('6879-nCQsiSUCrvNtndXWNh1Tjx7sI3gvZ8TRf589s2IJKTo')
 
 hypothesisClient.getListOfGroups({}, (err, groups) => {
   if (err) {
@@ -13,8 +13,12 @@ hypothesisClient.getListOfGroups({}, (err, groups) => {
     console.log(groups)
     for (let i = 0; i < groups.length; i++) {
       if (groups[i].id !== '__world__') {
-        hypothesisClient.removeAMemberFromAGroup({ id: groups[i].id }, () => {
-          console.log('Removed from ' + groups[i].name)
+        hypothesisClient.removeAMemberFromAGroup({ id: groups[i].id }, (err) => {
+          if (err) {
+            console.error('Error removing from ' + groups[i].name + ' :' + err.message)
+          } else {
+            console.log('Removed from ' + groups[i].name)
+          }
         })
       }
     }
