@@ -4,7 +4,7 @@ const HypothesisClient = require('../lib/index')
 
 const TOKEN = process.env.HYPOTHESIS_TOKEN
 
-const hypothesisClient = new HypothesisClient('6879-nCQsiSUCrvNtndXWNh1Tjx7sI3gvZ8TRf589s2IJKTo')
+const hypothesisClient = new HypothesisClient(TOKEN)
 
 hypothesisClient.getListOfGroups({}, (err, groups) => {
   if (err) {
